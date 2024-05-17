@@ -1,0 +1,492 @@
+body {
+  font-family: Arial, Roboto;
+  margin: 0;
+  background: rgb(224, 217, 217);
+}
+
+/*
+=================
+Nav Header
+=================
+*/
+.nav-sections-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: brown;
+  height: 55px;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  border-bottom: 1px solid grey;
+  box-shadow: 1px 2px 3px rgb(104, 104, 104);
+  z-index: 100;
+}
+.left-section {
+  width: 25px;
+  margin-left: 10px;
+  padding: 0;
+}
+.middle-section {
+  font-weight: bold;
+  font-size: 25px;
+  text-transform: capitalize;
+  flex-shrink: 0;
+  color: white;
+}
+.middle-section p {
+  margin: 0;
+}
+.right-section {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 100px;
+  margin-right: 10px;
+}
+.search-btn, .notification-btn {
+  width: 25px;
+}
+
+/*
+=================
+Welcome
+=================
+*/
+.welcome-container {
+  padding-top: 55px;
+  background: brown;
+  padding-bottom: 100px;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: relative;
+  top: 55px;
+}
+.welcome-content {
+  padding-top: 10px;
+  padding-left: 12px;
+  font-size: 12px;
+  color: white;
+  line-height: 24px;
+  letter-spacing: 1px;
+}
+.welcome {
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+}
+.referal-title {
+ font-weight: bold;
+ font-size: 12px;
+ color: white;
+ letter-spacing: 1px;
+ padding-left: 10px;
+}
+.referal-link {
+  font-size: 12px;
+  color: white;
+  line-height: 24px;
+  letter-spacing: 1px;
+}
+.copy-btn {
+  background: rgb(41, 37, 37);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 10px;
+  padding-top: 5px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.wallet-btn {
+  background-color: goldenrod;
+  color: white;
+  padding: 10px 14px;
+  border-radius: 20px;
+  border: none;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+
+.intro-general-container {
+  /* display: flex; */
+  background: white;
+  padding-top: 10px;
+  border-radius: 14px;
+  margin-left: 30px;
+  margin-right: 30px;
+  position: absolute;
+  top: 424px;
+  left: 0;
+  right: 0;
+}
+.intro-single-container {
+  text-align: center;
+}
+.package-container {
+  letter-spacing: 1px;
+  background: white;
+  margin: 0;
+  top: 0;
+  margin-top: -16px;
+  padding: 10px 20px;
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
+}
+.name {
+  font-weight: 600;
+  font-size: 18px;
+  justify-content: center;
+}
+.package-container h5 {
+  font-size: 14px;
+}
+.package-img {
+  width: 60%;
+  border-radius: 14px;
+  padding: 10px 10px;
+  margin-bottom: 10px;
+}
+.package-container button {
+  height: 50px;
+  width: 160px;
+  font-size: 12px;
+  border-radius: 55px;
+  background-color: rgb(138, 90, 214);
+  border: none;
+  display: inline-block;
+  cursor: pointer;
+}
+.para {
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  line-height: 24px;
+}
+.account-status {
+  font-weight: bold;
+  font-size: 16px;
+}
+.package-container a {
+  text-decoration: none;
+  transition: opacity 0.5;
+}
+.package-container a:hover {
+  color: rgb(120, 120, 202);
+}
+.bank-name, .bank-service {
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  line-height: 24px;
+}
+.bank-service-container {
+  display: grid;
+  justify-content: start;
+  background: white;
+}
+.bank-service {
+ border: 1px solid rgb(196, 190, 190);
+ display: inline-block;
+ padding: 5px 10px;
+ margin-bottom: 0;
+ border-bottom: 0;
+ border-radius: 4px;
+}
+
+.intro-single-container2{
+  background-color: rgb(245, 52, 52);
+  padding: 20px;
+  position: relative;
+}
+.logo {
+  width: 40%;
+  display: flex;
+}
+.account-details {
+  font-size: 12px;
+  color: white;
+  letter-spacing: 1px;
+}
+.price-charges {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 0;
+  top: 90px;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+.charges {
+  font-size: 10px;
+  font-weight: initial;
+  position: absolute;
+  top: 30px;
+  right: 15px;
+}
+.transfer-info {
+  margin-top: 40px;
+  font-size: 12px;
+  color: white;
+  letter-spacing: 1px;
+}
+
+
+.appreciation-container {
+  background-color: white;
+}
+.appreciation {
+  color: rgb(199, 2, 2);
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  text-align: center;
+  background-color: white;
+}
+
+
+.transactions-wallet-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 40px 10px;
+  padding-top: 0;
+  background: white;
+  border-bottom-left-radius: 14px;
+  border-bottom-right-radius: 14px;
+}
+.transaction-container {
+  margin-right: 20px;
+  padding-left: 8px;
+  border-radius: 4px;
+  box-shadow: 1px 2px 6px grey;
+}
+.wallet-summary-container {
+  padding-left: 8px;
+  border-radius: 4px;
+  box-shadow: 1px 2px 6px grey;
+}
+.transactions-wallet-container p {
+  display: inline-block;
+  margin-left: 8px;
+  font-size: 12px;
+}
+
+
+.wallet-referral-general-container {
+  position: relative; 
+  top: 950px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.wallet-referral-container {
+  display: grid;
+  justify-content: center;
+  padding: 40px 10px;
+  padding-top: 0;
+  margin-bottom: 20px;
+  margin-bottom: 0;
+}
+.wallet-referal-single-container {
+  background-color: snow;
+  border-radius: 4px;
+  box-shadow: 1px 2px 6px grey;
+  margin-bottom: 30px;
+  padding: 10px 100px 10px 10px;
+}
+.wallet-referal-single-container p {
+  display: inline-block;
+  margin-left: 16px;
+}
+.wallet-referral-logo {
+  background-color: purple;
+  padding: 15px 25px;
+  border-radius: 2px;
+}
+.single-container {
+  position: relative;
+  display: inline-block;
+}
+.para-referral-name {
+  color: grey;
+  font-size: 14px;
+}
+.para-referral-amount {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  margin-bottom: 0;
+  font-size: 14px;
+}
+
+
+
+.notification, .faq-container, .support-container {
+  background-color: red;
+  padding: 3px;
+  border-radius: 4px;
+  padding-left: 16px;
+  color: white;
+  font-size: 14px;
+  letter-spacing: 1px;
+  margin-top: 30px;
+}
+.faq-container, .support-container {
+ font-size: 12px;
+ padding-right: 35px;
+ padding-bottom: 16px;
+}
+.faq, .support {
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+.faq-btn {
+  background: blue;
+  padding: 6px 16px;
+  border: none;
+  border-radius: 3px;
+  font-size: 12px;
+  color: white;
+  cursor: pointer;
+}
+.faq-btn-query {
+  font-weight:bolder;
+  font-size: 14px;
+}
+.whatsapp, .join-whatsapp {
+  display: block;
+  background: rgb(60, 241, 60);
+  padding: 8px 16px;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  font-size: 12px;
+  cursor: pointer;
+  margin-bottom: 16px;
+}
+
+
+.selector-containers {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: top;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.selector-single-container {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 8px 30px 8px;
+  background: white;
+  border-radius: 6px;
+  font-size: 13px;
+}
+.selector-single-container p:hover {
+  text-decoration: underline;
+  text-decoration-color: blue;
+  cursor: pointer;
+}
+.selector-img {
+  width: 50%;
+}
+
+
+
+.transaction-statistics-container {
+  position: relative; 
+  top: 1000px;
+  padding: 10px 20px;
+  background:white;
+  border-radius: 6px;
+  margin: 0 40px 50px 40px;
+}
+.transaction-statistics-container h3 {
+  font-size: 18px;
+  letter-spacing: 1px;
+  margin-bottom: 14px;
+  margin-top: 12px;
+}
+.transaction-header {
+  border-bottom: 1px solid rgb(228, 220, 220);
+  margin-bottom: 14px;
+}
+.transaction-wallet-container {
+  padding: 10px 100px 10px 10px;
+  border-top: 1px solid rgb(228, 220, 220);
+  margin-top: 4px;
+}
+.transaction-wallet-container p {
+  display: inline-block;
+  margin-left: 16px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.transaction-logo {
+  background-color: purple;
+  padding: 15px 25px;
+  border-radius: 2px;
+}
+
+.transaction-single-container {
+  position: relative;
+  display: inline-block;
+}
+.transaction-name {
+  color: grey;
+  font-size: 14px;
+}
+.transaction-amount {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  margin-bottom: 0;
+  font-size: 14px;
+}
+
+
+.page-footer {
+  height: 4rem;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 1010px;
+}
+.footer-logo, .page-footer a {
+  text-decoration: none;
+  color: blue;
+}
+
+
+@media screen and (min-width: 552px) {
+  .right-section {
+    padding-right: 10px;
+  }
+  .left-section {
+   padding-left: 10px;
+  }
+  .selector-containers {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media screen and (min-width: 732px) {
+  .welcome-container {
+    padding-bottom: 0;
+  }
+}
+@media screen and (min-width: 768px) {
+  .selector-containers {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+@media screen and (min-width: 992px) {
+  .selector-containers {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+}
